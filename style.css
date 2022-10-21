@@ -1,75 +1,103 @@
-.container{
-    border: solid 1px black;
-    width: 320px;
-    border-left-width: 15px;
-    background-color: #bb579d;
-    height: 900px;
+.container {
+	border: solid 1px black;
+	width: 340px;
+	border-left-width: 25px;
+	background-color: dodgerblue;
+	height: 970px;
+	margin: auto;
 }
-.container2{
-    border: solid 1px;
-    width: 800px;
-    box-shadow: 0 0 0 #bb579d;
-    background-color: #bb579d;
-    border-right-width: 15px;
+
+.container2 {
+	border: solid 1px black;
+	width: 820px;
+	box-shadow: 0 0 0 #bb579d;
+	background-color: aqua;
+	border-right-width: 15px;
+	margin: auto;
+	height: 970px;
 }
-body{
-    display: inline-flex;
-    background-color: #cf72a13b;
-    margin-bottom: 0;
-    padding: 50px;
+
+body {
+	display: inline-flex;
+	background-color: black;
+	margin-bottom: 0;
+	padding: 50px;
 }
-.data span{
-    margin-left: 1em;
+
+.data span {
+	margin-left: 1em;
 }
-.data li{
-    margin-left:1em;
-    list-style:none;
+
+.data li {
+	margin-left: 1em;
+	list-style: none;
 }
-.language li{
-    margin-left: 7em;
+
+.language li {
+	margin-left: 7em;
 }
-.contacts li{
-    list-style:none;
-    font-size: 20px;
+
+.contacts li {
+	list-style: none;
+	font-size: 20px;
 }
+
 .personal ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
-.personal ul li h1{
-    margin: 0;
-    padding: 0;
+
+.personal ul li h1 {
+	margin: 0;
+	padding: 0;
 }
+
 .education h4 {
-    margin-left: 4em;
-    color: black;
-    font-size: 17px;
+	margin-left: 2em;
+	color: black;
+	font-size: 17px;
 }
-.education p{
-    margin-left: 23%;
-    line-height: 0px; 
+
+.education p {
+	margin-left: 23%;
+	line-height: 0px;
 }
-.skills ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+.skills ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
-.skills ul li h4{
-    margin: 0;
-    padding: 0;
+
+.skills ul li h4 {
+	margin: 0;
+	padding: 0;
 }
-.container3{
-    display: inline-flex;
+
+.container3 {
+	display: inline-flex;
+	margin-left: 1em;
+	margin-right: 1em;
 }
-.experience{
-    border:solid 1px rgb(107, 20, 119);
-    width: 379px;
-    margin-left: 0.5em;
-    border-radius: 30px;
+
+.experience {
+	border: solid 1px rgb(107, 20, 119);
+	width: 379px;
+	margin-left: 0.5em;
+	border-radius: 30px;
 }
-.experience li{
-    line-height: 20px;
-    text-align: center;
-    list-style: none;
+
+.experience li {
+	line-height: 20px;
+	text-align: center;
+	list-style: none;
+}
+
+.hatdog {
+	padding: 20px;
+}
+
+html {
+	background: black;
 }
